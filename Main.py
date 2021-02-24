@@ -4,17 +4,7 @@ import processing
 import math
 
 #Author: Stijn Ticheloven
-
-#This script delineates single streams from an arbitrary starting point
-#towards the lowest point in the input dataset.
-#In the first section, some parameters have te be set up.
-#Then, the search angle is defined to implement in the field calculator.
-#A point is selected and the expression for the field calculator is executed to select
-#the lowest point within the specified search radius.
-#If the z-value of strarting point is lower than the end point,
-#the extended search radius will be applied.
-#This process is iterated until the model is at the lowest point in the dataset.
-
+#26-02-2021
 
 #########################
 ### SET UP PARAMETERS ###
